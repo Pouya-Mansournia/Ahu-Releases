@@ -19,7 +19,7 @@ Ahu needs a Mac with Apple Silicon (M1 or newer). There is nothing else to insta
 ## First steps
 
 1. Open **Connect**, enter your server details and press **Connect**. Passwords are stored in the macOS Keychain.
-2. Press **Discover** to read the structure of your databases. Only metadata is read, never table rows.
+2. Press **Discover** and select the connections to scan. Discovery reads database structure and metadata.
 3. Explore, search and query.
 
 ## What you can do with it
@@ -27,8 +27,9 @@ Ahu needs a Mac with Apple Silicon (M1 or newer). There is nothing else to insta
 - **Overview** of every connected source: tables per catalog, discovery health and how your catalog grows over time.
 - **Explore and search** every catalog, schema, table and column, with charts of each catalog's tables and column types.
 - **Ready-made queries for every table**, one click away in **Quick start**: latest rows, row count, rows per day, latest load time, column count, NULL count per column, daily sums, sums of the latest day and hourly sums.
-- **Write and run queries** in a read-only editor, with a chart view for results and CSV export. Saved queries are kept as `.sql` files in a folder you choose.
-- **Cross-source queries**: run a query on each of two or more connections (each with its own login) and join the results on your Mac.
+- **Write and run queries** in a read-only editor with line numbers, syntax highlighting and full-screen editing. Results support chart view and CSV export. Saved queries are kept as `.sql` files in a folder you choose.
+- **Federated SQL**: paste one read-only statement, detect its tables, choose a saved connection for each table, and follow the live execution log.
+- **Cross-source queries**: run individual queries on separate connections and combine their results on your Mac.
 - **AI assistant** (Claude, OpenAI, Gemini or Cloudflare Workers AI, with your own key). It only sends your question and relevant table and column names, never row data.
 - **Learn SQL** with short lessons and a dictionary.
 - **Documentation** of your catalog, generated on your Mac and exportable as HTML.
