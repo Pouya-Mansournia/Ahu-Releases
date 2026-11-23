@@ -8,7 +8,7 @@ This repository only holds the installers. You don't need to clone anything.
 
 ## Download
 
-Get the latest `.dmg` from the [Releases page](https://github.com/Pouya-Mansournia/Ahu-Releases/releases/latest).
+**Current release: Ahu 1.6.0 for Apple Silicon.** [Download the DMG](https://github.com/Pouya-Mansournia/Ahu-Releases/releases/download/v1.6.0/Ahu-1.6.0-arm64.dmg) or [view the release notes and checksum](https://github.com/Pouya-Mansournia/Ahu-Releases/releases/tag/v1.6.0).
 
 1. Open the DMG and drag **Ahu** into **Applications**.
 2. Open Ahu. The first launch takes about 10 seconds while it sets itself up.
