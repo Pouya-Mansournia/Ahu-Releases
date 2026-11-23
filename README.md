@@ -28,6 +28,7 @@ Ahu needs a Mac with Apple Silicon (M1 or newer). There is nothing else to insta
 - **Explore and search** every catalog, schema, table and column, with charts of each catalog's tables and column types.
 - **Ready-made queries for every table**, one click away in **Quick start**: latest rows, row count, rows per day, latest load time, column count, NULL count per column, daily sums, sums of the latest day and hourly sums.
 - **Write and run queries** in a read-only editor with line numbers, syntax highlighting and full-screen editing. Results support chart view and CSV export. Saved queries are kept as `.sql` files in a folder you choose.
+- **SQL autocomplete** suggests keywords, functions, and discovered tables and schemas as you type in any editable SQL field, including templates, schedules, and full-screen editors.
 - **Federated SQL**: paste one read-only statement, detect its tables, choose a saved connection for each table, and follow the live execution log.
 - **Cross-source queries**: run individual queries on separate connections and combine their results on your Mac.
 - **AI assistant** (Claude, OpenAI, Gemini or Cloudflare Workers AI, with your own key). It only sends your question and relevant table and column names, never row data.
